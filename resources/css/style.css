@@ -8,6 +8,7 @@
 
 h1, h2 {
     color: white;
+    padding: 20px;
 }
 
 span {
@@ -21,6 +22,10 @@ span {
     text-decoration: underline;
 }
 
+.sub {
+    padding: 20px;
+}
+
 h1 {
     font-size: 50px;
     font-weight: normal;
@@ -28,9 +33,24 @@ h1 {
 
 h2 {
     font-size: 42px;
-    font-weight: 300px
+    font-weight: 300px;
 }
 
 footer {
-    text-align: right;
+    padding: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.camp {
+    margin: 30px;
+}
+
+.icon {
+    margin-bottom: 20px;
+}
+
+#icon h2 {
+    margin-bottom: 20px;
 }
