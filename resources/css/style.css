@@ -17,7 +17,8 @@ span {
 
 .link {
     color: aquamarine;
-    font-size: 16px
+    font-size: 16px;
+    text-decoration: underline;
 }
 
 h1 {
